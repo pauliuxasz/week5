@@ -12,8 +12,8 @@ package week5;
 public class Order {
     private PaymentBehaviour pb;
     
-    public Order(PaymentBehaviour payb){
-        pb = payb;
+    public Order(PaymentBehaviour paymentb){
+        pb = paymentb;
     }
     public double orderValue(){
         return 1;
